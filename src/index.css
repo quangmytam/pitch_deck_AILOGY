@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/container-queries";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: #af25f4;
+  --color-primary-dark: #3024b3;
+  --color-primary-light: #6657ff;
+  --color-background-light: #f7f5f8;
+  --color-background-dark: #121121;
+  --color-surface-dark: #1e1c2e;
+  --color-surface-light: #1e1b36;
+  --color-surface-border: #383465;
+  --color-border-dark: #383465;
+  --color-accent: #00f0ff;
+  --color-accent-success: #0bda68;
+  --color-accent-green: #0bda68;
+  --color-accent-orange: #fa6938;
+  --color-accent-blue: #0bda68;
+  --color-accent-violet: #7c3aed;
+  --color-text-secondary: #9893c8;
+  --color-card-dark: #2b1834;
+
+  --font-display: "Space Grotesk", "Public Sans", sans-serif;
+  --font-body: "Noto Sans", "Public Sans", sans-serif;
+  --font-sans: "Public Sans", sans-serif;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(64, 48, 232, 0.5);
+  }
+  .glass-panel {
+    background: rgba(19, 17, 34, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .dashboard-grid {
+    background-image: linear-gradient(rgba(64, 48, 232, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(64, 48, 232, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
