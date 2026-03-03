@@ -128,7 +128,7 @@ export default function Screen6() {
                     <motion.div variants={itemVariants} className="group rounded-3xl border border-border-dark bg-white dark:bg-surface-dark overflow-hidden flex flex-col hover:border-red-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/10 hover:-translate-y-2 lg:mt-8">
                         <div className="relative h-48 bg-slate-100 dark:bg-slate-800 overflow-hidden border-b border-border-dark">
                             <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 to-transparent z-10"></div>
-                            <img src="https://images.unsplash.com/photo-1507668581729-281b376c7ee6?auto=format&fit=crop&w=800&q=80" alt="Gov Portal Dashboard" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <img src="https://images.unsplash.com/photo-1451187580459-434902bd0c0e?auto=format&fit=crop&w=800&q=80" alt="Gov Portal Dashboard" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                         </div>
                         <div className="p-8 flex flex-col flex-1 relative">
                             <div className="absolute -top-6 left-8 w-12 h-12 rounded-xl bg-red-500 text-white flex items-center justify-center shadow-lg border-4 border-white dark:border-surface-dark">
