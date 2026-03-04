@@ -161,35 +161,27 @@ export default function Screen2() {
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6 py-8">
-            {/* GLOBAL TAM */}
             <div className="rounded-[2rem] border-2 border-slate-300 dark:border-slate-700 bg-slate-100/50 dark:bg-slate-800/50 p-6 text-center hover:border-slate-400 dark:hover:border-slate-600 transition-colors shadow-sm">
               <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Global TAM (2030)')}</div>
               <div className="font-black text-3xl text-slate-700 dark:text-slate-400 mb-1">$700B – $1T+</div>
-              <div className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-1">TAM</div>
               <div className="text-xs text-slate-600 dark:text-slate-400">{t('Global AI and data infrastructure market.')}</div>
             </div>
 
-            {/* REGIONAL TAM */}
             <div className="rounded-[2rem] border-2 border-primary/50 bg-primary/10 p-6 text-center z-10 backdrop-blur-md hover:border-primary transition-colors shadow-md">
-              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Regional TAM – Southeast Asia')}</div>
+              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Regional TAM - Southeast Asia')}</div>
               <div className="font-black text-3xl text-primary mb-1">$25B – $35B</div>
-              <div className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-1">TAM</div>
               <div className="text-xs text-slate-700 dark:text-slate-300">{t('AI, data and GovTech investment rising sharply due to national digital transformation.')}</div>
             </div>
 
-            {/* VIETNAM SAM */}
             <div className="rounded-[2rem] border-2 border-accent-success/50 bg-accent-success/10 p-6 text-center z-10 backdrop-blur-md hover:border-accent-success transition-colors shadow-md">
-              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Vietnam SAM (2025–2031)')}</div>
+              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Vietnam SAM (2025-2031)')}</div>
               <div className="font-black text-3xl text-accent-success mb-1">$2.9B → $5.8B</div>
-              <div className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-1">SAM</div>
               <div className="text-xs text-slate-700 dark:text-slate-300">{t('Vietnam AI market growing over 26% annually.')}</div>
             </div>
 
-            {/* AILOGY SOM */}
             <div className="rounded-[2rem] border-2 border-accent bg-accent/20 p-6 text-center z-20 backdrop-blur-md hover:scale-105 transition-transform shadow-xl shadow-accent/20">
-              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('AILOGY SOM (5–7 years)')}</div>
+              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('AILOGY SOM (5-7 years)')}</div>
               <div className="font-black text-3xl text-slate-900 dark:text-white mb-1">$700M – $1.3B</div>
-              <div className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-1">SOM</div>
               <div className="text-xs text-slate-800 dark:text-slate-200">{t('Sovereign AI market for government and large enterprises.')}</div>
             </div>
           </div>
