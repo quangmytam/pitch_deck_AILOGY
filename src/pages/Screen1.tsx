@@ -233,7 +233,7 @@ export default function Screen1() {
         >
           <div className="flex items-center gap-2 text-primary mb-2">
             <span className="material-symbols-outlined text-sm">groups</span>
-            <span className="text-xl font-bold tracking-widest uppercase">{t('Đội ngũ và lợi thế')}</span>
+            <span className="text-xs font-bold tracking-widest uppercase">{t('Đội ngũ và lợi thế')}</span>
           </div>
           <h2 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
             {t('Lợi thế về công nghệ và hệ sinh thái')}
