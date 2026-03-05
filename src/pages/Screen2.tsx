@@ -162,7 +162,7 @@ export default function Screen2() {
 
           <div className="grid sm:grid-cols-2 gap-6 py-8">
             <div className="rounded-[2rem] border-2 border-slate-300 dark:border-slate-700 bg-slate-100/50 dark:bg-slate-800/50 p-6 text-center hover:border-slate-400 dark:hover:border-slate-600 transition-colors shadow-sm">
-              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Global SAM (2030)')}</div>
+              <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">{t('Global TAM (2030)')}</div>
               <div className="font-black text-3xl text-slate-700 dark:text-slate-400 mb-1">$700B – $1T+</div>
               <div className="text-xs text-slate-600 dark:text-slate-400">{t('Global AI and data infrastructure market.')}</div>
             </div>
