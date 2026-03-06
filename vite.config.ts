@@ -12,5 +12,7 @@ const repoName = process.env.GITHUB_REPOSITORY
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: repoName,
-
+  server: {
+    allowedHosts: true,
+  }
 })
