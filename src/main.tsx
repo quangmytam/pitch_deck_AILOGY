@@ -42,7 +42,7 @@ const Screen1 = () => {
                 <span className="px-3 py-1 border border-border-dark text-slate-600 dark:text-slate-400 font-bold text-sm rounded">PLATFORM</span>
               </div>
               <h2 className="text-2xl md:text-4xl text-slate-700 dark:text-slate-300 font-bold whitespace-nowrap mb-10 leading-relaxed">
-                {t('TIÊN PHONG CÔNG NGHỆ DỮ LIỆU VÀ TRÍ TUỆ NHÂN TẠO adasds')}
+                {t('TIÊN PHONG CÔNG NGHỆ DỮ LIỆU VÀ TRÍ TUỆ NHÂN TẠO')}
               </h2>
               <div className="flex items-center justify-center gap-6 pt-8 border-t border-border-dark w-full">
                 <div className="flex flex-col text-left">
