@@ -42,7 +42,7 @@ const Screen1 = () => {
                 <span className="px-3 py-1 border border-border-dark text-slate-600 dark:text-slate-400 font-bold text-sm rounded">PLATFORM</span>
               </div>
               <h2 className="text-2xl md:text-4xl text-slate-700 dark:text-slate-300 font-bold whitespace-nowrap mb-10 leading-relaxed">
-                {t('TIÊN PHONG CÔNG NGHỆ DỮ LIỆU VÀ TRÍ TUỆ NHÂN TẠO')}
+                {t('TIÊN PHONG CÔNG NGHỆ DỮ LIỆU VÀ TRÍ TUỆ NHÂN TẠO adasds')}
               </h2>
               <div className="flex items-center justify-center gap-6 pt-8 border-t border-border-dark w-full">
                 <div className="flex flex-col text-left">
@@ -330,29 +330,7 @@ const Screen4 = () => {
         </motion.div>
       </section>
 
-      <section className="grid lg:grid-cols-2 gap-8 py-10 border-t border-border-dark">
-        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="p-8 md:p-12 rounded-3xl border border-primary-light/30 bg-primary/5 shadow-inner">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-14 h-14 rounded-2xl bg-primary-light/20 flex items-center justify-center"><span className="material-symbols-outlined text-primary-light text-3xl">corporate_fare</span></div>
-            <h2 className="text-3xl font-black text-slate-900 dark:text-white">{t('Hiveres Support')}</h2>
-          </div>
-          <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 leading-relaxed">{t('AILOGY receives unparalleled structural leverage from its parent holding, utilizing the Hiveres Technology Institute to establish deep-seated bureaucratic network pipelines.')}</p>
-          <div className="flex flex-wrap gap-3">{['Bộ Tài Chính', 'Bộ Công An', 'Bộ Nội Vụ', 'Viện trí tuệ nhân tạo', 'Bộ KHCN'].map((min, idx) => (<span key={idx} className="px-4 py-2 border border-primary-light/30 bg-white/50 dark:bg-surface-dark/50 backdrop-blur rounded-full text-sm font-bold shadow-sm">{t(min)}</span>))}</div>
-        </motion.div>
-        <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="p-8 rounded-3xl border border-accent-success/30 bg-accent-success/5 flex flex-col justify-center relative overflow-hidden shadow-inner">
-          <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-8 relative z-10">{t('Exit Path & Assurances')}</h2>
-          <div className="space-y-6 relative z-10">
-            <div className="flex items-start gap-5 p-6 border border-border-dark bg-white/80 dark:bg-surface-dark/80 backdrop-blur-md rounded-2xl shadow-xl hover:scale-[1.02] transition-transform">
-              <div className="w-12 h-12 shrink-0 rounded-full bg-accent-success/20 flex items-center justify-center mt-1"><span className="material-symbols-outlined text-accent-success font-bold">account_balance</span></div>
-              <div><h4 className="font-black text-lg text-slate-900 dark:text-white mb-2">{t('M&A and IPO Potential')}</h4><p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{t('Highly attractive target for strategic acquisition by telecom giants or international firms aiming to shortcut Vietnam’s regulatory data walls.')}</p></div>
-            </div>
-            <div className="flex items-start gap-5 p-6 border border-accent/30 bg-gradient-to-br from-white/90 to-accent/5 dark:from-surface-dark/90 dark:to-accent/10 backdrop-blur-md rounded-2xl shadow-xl hover:scale-[1.02] transition-transform">
-              <div className="w-12 h-12 shrink-0 rounded-full bg-accent/20 flex items-center justify-center mt-1"><span className="material-symbols-outlined text-accent font-bold">policy</span></div>
-              <div><h4 className="font-black text-lg text-slate-900 dark:text-white mb-2">{t('3-Year Capital Return Guarantee')}</h4><p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-medium">{t('If the company is not listed or has not experienced a liquidity event within 3 years, the founders commit to repurchasing the shares at original value plus the average commercial bank interest rate.')}</p></div>
-            </div>
-          </div>
-        </motion.div>
-      </section>
+
     </div>
   );
 };
@@ -976,6 +954,30 @@ const Screen3 = () => {
                 <div className="text-4xl font-black text-slate-900 dark:text-white">{t('1 Tỷ USD')}</div>
                 <div className="text-xs text-slate-500 font-medium mt-1 uppercase">{t('Đến hết năm 2028')}</div>
               </div>
+            </div>
+          </div>
+        </motion.div>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-8 py-10 border-t border-border-dark">
+        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="p-8 md:p-12 rounded-3xl border border-primary-light/30 bg-primary/5 shadow-inner">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-14 h-14 rounded-2xl bg-primary-light/20 flex items-center justify-center"><span className="material-symbols-outlined text-primary-light text-3xl">corporate_fare</span></div>
+            <h2 className="text-3xl font-black text-slate-900 dark:text-white">{t('Hiveres Support')}</h2>
+          </div>
+          <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 leading-relaxed">{t('AILOGY receives unparalleled structural leverage from its parent holding, utilizing the Hiveres Technology Institute to establish deep-seated bureaucratic network pipelines.')}</p>
+          <div className="flex flex-wrap gap-3">{['Bộ Tài Chính', 'Bộ Công An', 'Bộ Nội Vụ', 'Viện trí tuệ nhân tạo', 'Bộ KHCN'].map((min, idx) => (<span key={idx} className="px-4 py-2 border border-primary-light/30 bg-white/50 dark:bg-surface-dark/50 backdrop-blur rounded-full text-sm font-bold shadow-sm">{t(min)}</span>))}</div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="p-8 rounded-3xl border border-accent-success/30 bg-accent-success/5 flex flex-col justify-center relative overflow-hidden shadow-inner">
+          <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-8 relative z-10">{t('Exit Path & Assurances')}</h2>
+          <div className="space-y-6 relative z-10">
+            <div className="flex items-start gap-5 p-6 border border-border-dark bg-white/80 dark:bg-surface-dark/80 backdrop-blur-md rounded-2xl shadow-xl hover:scale-[1.02] transition-transform">
+              <div className="w-12 h-12 shrink-0 rounded-full bg-accent-success/20 flex items-center justify-center mt-1"><span className="material-symbols-outlined text-accent-success font-bold">account_balance</span></div>
+              <div><h4 className="font-black text-lg text-slate-900 dark:text-white mb-2">{t('M&A and IPO Potential')}</h4><p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{t('Highly attractive target for strategic acquisition by telecom giants or international firms aiming to shortcut Vietnam’s regulatory data walls.')}</p></div>
+            </div>
+            <div className="flex items-start gap-5 p-6 border border-accent/30 bg-gradient-to-br from-white/90 to-accent/5 dark:from-surface-dark/90 dark:to-accent/10 backdrop-blur-md rounded-2xl shadow-xl hover:scale-[1.02] transition-transform">
+              <div className="w-12 h-12 shrink-0 rounded-full bg-accent/20 flex items-center justify-center mt-1"><span className="material-symbols-outlined text-accent font-bold">policy</span></div>
+              <div><h4 className="font-black text-lg text-slate-900 dark:text-white mb-2">{t('3-Year Capital Return Guarantee')}</h4><p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-medium">{t('If the company is not listed or has not experienced a liquidity event within 3 years, the founders commit to repurchasing the shares at original value plus the average commercial bank interest rate.')}</p></div>
             </div>
           </div>
         </motion.div>
